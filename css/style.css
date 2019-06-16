@@ -73,7 +73,8 @@ nav li{
     list-style: none;
 }
 
-nav li a{
+nav li a
+{
     text-decoration: none;
     display: block;
     padding: 20px 25px;
@@ -81,7 +82,8 @@ nav li a{
     border-bottom: 1px solid #40555F;
 }
 
-nav li a:hover{
+nav li a:hover
+{
     background-color: #56676F;
     text-decoration: none;
     color: #fff;
@@ -132,8 +134,11 @@ span{
 
 
 .fa-arrow-circle-up{
-    color: #28a745;
+    color: #007bff;
 }
+
+
+
 
 
 
