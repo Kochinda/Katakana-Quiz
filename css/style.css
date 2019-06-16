@@ -1,0 +1,173 @@
+body{
+    font-family:  "UD Digi Kyokasho N-B";
+    overflow: scroll;
+}
+
+/* header */
+header{
+    position: relative;
+    padding: 10px;
+    color: pink;
+    background-color: #58C8D0; 
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-end;
+    justify-items: center;
+
+}
+
+
+.name{
+    font-weight: bold;
+    margin-left: 5px;
+    line-height: 35px;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+    color: pink;
+    
+}
+
+.menu-title{
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    line-height: 35px;
+    font-size: 25px;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 10px;
+    left:20px;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+}
+
+.menu-btn:focus,
+#clear:focus,
+.check-btn:focus{
+    outline: none;
+}
+
+.menu-img{
+    width: 100%;
+}
+
+/* nav */
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 250px;
+    margin-left: -250px;
+    background-color: darkgray;
+}
+
+nav li{
+    list-style: none;
+}
+
+nav li a{
+    text-decoration: none;
+    display: block;
+    padding: 20px 25px;
+    color: #fff;
+    border-bottom: 1px solid #40555F;
+}
+
+nav li a:hover{
+    background-color: #56676F;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Questions */
+span{
+    text-decoration: underline;
+
+}
+
+
+.show{
+    display: inline;
+    color: red;
+}
+
+
+.answer{
+    display: inline;
+    color: blue;
+}
+
+
+
+#clear{
+    width: 200px;
+    height: 30px;
+    background-color: yellow;
+    border-color: black;
+    border-radius: 10px;
+    color: red;
+}
+
+
+
+
+
+.check-btn{
+    border-radius: 5px;
+    background-color: blue;
+    border-color: blue;
+    border-radius: 10px;
+    color: white;
+    display: inline;
+}
+
+
+
+.fa-arrow-circle-up{
+    color: #28a745;
+}
+
+
+
+
+@media screen and (max-width:580px){
+    .font{
+       font-size: 15px; 
+    }
+
+    .name{
+        display: none;
+    }
+
+    .menu-title{
+        font-size: 20px;
+    }
+
+    #clear{
+        width: 100px;
+        font-size: 10px;
+    } 
+
+
+
+    .show{
+        padding: 0;
+    }
+
+
+
+    .check-btn{
+        right:10px;
+        bottom: 10px;
+        font-size: 10px;
+    } 
+
+}
