@@ -12,7 +12,7 @@ $(function(){
     // })
 
     $('#arrow').click(function(){
-        $('html').animate({scrollTop: 0 }, 1000);
+        $('body,html').animate({scrollTop: 0 }, 1000);
 
     });
 
