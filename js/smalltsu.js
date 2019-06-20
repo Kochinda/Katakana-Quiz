@@ -3,7 +3,7 @@ $(function(){
     let dis = 250;
 
     // click menu-btn
-    $('.menu-btn').click(function(){
+    $('html body .menu-btn').click(function(){
     
         // Move body's children to the left 250px
         $('body').children().animate({'margin-left': '+=' + dis + 'px'}, 200);
@@ -16,7 +16,22 @@ $(function(){
 
     });
 
+
+    // click play-btn to play audio
+    $('#play1').on('click', function(){
+        $('#sound-file1').get(0).play();
+        
+    });
+
+    $('#play2').on('click', function(){
+        $('#sound-file2').get(0).play();
+        
+    });
+
     
+ 
+
+ 
 
 
 let checkBtn = document.getElementById('check1');

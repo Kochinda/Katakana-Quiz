@@ -13,21 +13,23 @@
  
 </head>
 <body>
+       
     <header>
-        <div class="flex">
-            <a target="_blank" href="https://www.wrightjukuonline.com/"><img src="./img/Picture1.png" style="width:35px; height: 35px;" alt="logo"></a>    
-            <a class="name" target="_blank" href="https://www.wrightjukuonline.com/">Wright Juku Online</a>
+        <div class="flex-left">
+            <button class="menu-btn"><img src="./img/button.png" alt="Menu" class="menu-img"></button>
+            <p class="menu-title">katakana Menu</p>
         </div>
 
-     <button class="menu-btn"><img src="./img/button.png" alt="Menu" class="menu-img"></button>
-     <p class="menu-title">katakana Menu</p>
+        <div class="flex-right">
+            <a target="_blank" href="https://www.wrightjukuonline.com/"><img src="./img/Picture1.png" style="width:35px; height: 35px;" alt="logo"></a>    
+            <a class="name" target="_blank" href="https://www.wrightjukuonline.com/">Wright Juku Online</a>
+        </div>     
     </header>
-
     <nav>
         <ul>
             <li><a href="index.html">ツ・シ・ン・ソ・リ</a></li>
             <li><a href="longsound.html">Long Sound</a></li>
-            <li><a href="smalltsu.html">Small ッ</a></li>
+            <!-- <li><a href="smalltsu.html">Small ッ</a></li> -->
             <!-- <li><a href="#">Quiz</a></li> -->
         </ul>
     </nav>
@@ -36,8 +38,8 @@
     
         <div class="container">
             <h1 class="mt-3">Small "ッ"</h1>
-            <h3 class="mt-3 text-danger">Follow 3 steps so that you will be able to spell the words with small"ッ"correctly!</h3>
-            <h4 class="ml-3">Step1 >>><i class="far fa-eye"></i> Watch and learn the rules. ( 2 mins)</h4>
+            <h3 class="mt-3 text-danger">Follow 3 steps so that you will be able to spell the words with small "ッ" correctly!</h3>
+            <h4 class="ml-3">Step1 >>><i class="far fa-eye"></i> Watch and learn the rules. (2 mins)</h4>
             <h4 class="ml-3">Step2 >>><i class="fas fa-pencil-alt"></i> Check for your understanding.</h4>
             <h4 class="ml-3">Step3 >>><i class="far fa-edit"></i> Test yourself.</h4>
             
@@ -54,12 +56,16 @@
     
           <form action="">
   
-              <h4 class="font mt-5">しゃしんのことばのただしいカタカナをえらびましょう。Choose the right Katakana. </h4>
+              <h4 class="font mt-5">はじめに、しゃしんをみて、はつおんをききます。そして、ただしいカタカナをえらびましょう。<br>First, look at a picture and listen to the sound, then choose the right Katakana. </h4>
   
               <section class="section1 mt-4">    
-                  <h5 class="font">（１）card</h5>
-                  <img src="" alt="..." class="img-thumbnail" style="width: 150px; height:150px"> 
+                  
+                  <h5 class="font">（１）Sandwitch<i id="play1" class="far fa-play-circle ml-3"></i></h5>
+                  <img src="https://cdn.pixabay.com/photo/2019/01/29/20/01/club-sandwich-3963184_960_720.jpg" alt="..." class="img-thumbnail" style="width: 150px; height:150px"> 
                   <br>
+                  <audio id="sound-file1" src="./audio/率.mp3"></audio>
+                                               
+                
               
               
               
@@ -67,16 +73,16 @@
               
               
                   <input class="q1 ml-4 mr-2" type="radio" name="answer1" value="0" id="1-1"> <label for="1-1" class="font">1
-                      カド</label> <br>
+                      サソトイッチ</label> <br>
               
                   <input class="q1 ml-4 mr-2" type="radio" name="answer1" value="0" id="1-2"> <label for="1-2" class="font">2
-                      カドー</label><br>
+                      サンドイチ</label><br>
               
                   <input class="q1 ml-4 mr-2" type="radio" name="answer1" value="1" id="1-3"> <label for="1-3" class="font">3
-                      カード</label><br>
+                      サンドイッチ</label><br>
               
                   <input class="q1 ml-4 mr-2" type="radio" name="answer1" value="0" id="1-4"> <label for="1-4" class="font">4
-                      ガード</label><br>
+                      サンドッイチ</label><br>
               
                   <br>
               
@@ -96,9 +102,11 @@
               
               <section class="section2 mt-4">
               
-                  <h5 class="font">（２）Cola</h5>
+                  <h5 class="font">（２）<i id="play2" class="far fa-play-circle ml-3"></i></h5></h5>
                   <img src="" alt="..." class="img-thumbnail" style="width: 150px; height:150px"> 
                   <br>
+                  <audio id="sound-file2" src="./audio/然.mp3"></audio>
+
 
               
               
@@ -131,9 +139,11 @@
               
               <section class="section3 mt-4">
               
-                  <h5 class="font">（3）soup</h5>
+                  <h5 class="font">（3）<i id="play3" class="far fa-play-circle ml-3"></i></h5>
                   <img src="" alt="..." class="img-thumbnail" style="width: 150px; height:150px"> 
                   <br>
+                  <audio id="sound-file3" src=""></audio>
+
 
               
               
@@ -166,9 +176,11 @@
               
               <section class="section4 mt-4">
               
-                  <h5 class="font">（4）Ramen</h5>
+                  <h5 class="font">（4）<i id="play4" class="far fa-play-circle ml-3"></i></h5>
                   <img src="" alt="..." class="img-thumbnail" style="width: 150px; height:150px"> 
                   <br>
+                  <audio id="sound-file4" src=""></audio>
+
 
               
               
@@ -207,9 +219,11 @@
               
               <section class="section5 mt-4">
               
-                  <h5 class="font">（5）Curry</h5>
+                  <h5 class="font">（5）<i id="play5" class="far fa-play-circle ml-3"></i></h5>
                   <img src="" alt="..." class="img-thumbnail" style="width: 150px; height:150px"> 
-                  <br>               
+                  <br>  
+                  <audio id="sound-file5" src=""></audio>
+
               
                   <input class="q5 m-2" type="text" id="5-1" placeholder="Your answer here" >
               <br>
@@ -228,9 +242,11 @@
               
               <section class="section6 mt-4">
               
-                  <h5 class="font">（6）icecream</span>。</h5>
+                  <h5 class="font">（6）<i id="play6" class="far fa-play-circle ml-3"></i></h5>
                   <img src="" alt="..." class="img-thumbnail" style="width: 150px; height:150px"> 
-                  <br>            
+                  <br> 
+                  <audio id="sound-file6" src=""></audio>
+
               
                   <input class="q6 m-2" type="text" id="6-1" placeholder="Your answer here">               
                   <br>
@@ -249,9 +265,11 @@
               
               <section class="section7 mt-4">
               
-                  <h5 class="font">（7）beer</h5>
+                  <h5 class="font">（7）<i id="play7" class="far fa-play-circle ml-3"></i></h5>
                   <img src="" alt="..." class="img-thumbnail" style="width: 150px; height:150px"> 
                   <br>
+                  <audio id="sound-file7" src=""></audio>
+
 
               
               
@@ -273,9 +291,11 @@
               
               <section class="section8 mt-4">
               
-                  <h5 class="font">（8）hair dryer</h5>
+                  <h5 class="font">（8）<i id="play8" class="far fa-play-circle ml-3"></i></h5>
                   <img src="" alt="..." class="img-thumbnail" style="width: 150px; height:150px"> 
                   <br>
+                  <audio id="sound-file8" src=""></audio>
+
 
                   <input class="q8 m-2" type="text" id="8-1" placeholder="Your answer here"><br>
                        

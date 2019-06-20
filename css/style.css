@@ -5,17 +5,26 @@ body{
 
 /* header */
 header{
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
     padding: 10px;
     color: pink;
     background-color: #58C8D0; 
 }
 
-.flex{
+.flex-right{
     display: flex;
     justify-content: flex-end;
     justify-items: center;
 
+}
+
+.flex-left{
+    display: flex;
+    float: left;
+    justify-content: flex-start;
+    justify-items: center;
 }
 
 
@@ -31,17 +40,12 @@ header{
 }
 
 .menu-title{
-    position: absolute;
-    top: 10px;
-    left: 60px;
     line-height: 35px;
     font-size: 25px;
+    margin-bottom: 0;
 }
 
 .menu-btn{
-    position: absolute;
-    top: 10px;
-    left:20px;
     background-color: transparent;
     border:none;
     cursor: pointer;
@@ -155,6 +159,11 @@ span{
 
     .menu-title{
         font-size: 20px;
+    }
+
+    .menu-img{
+        width: 20px;
+        height: 20px;
     }
 
     #clear{

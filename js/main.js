@@ -3,7 +3,7 @@ $(function(){
     let dis = 250;
 
     // click menu-btn
-    $('.menu-btn').click(function(){
+    $('html body .menu-btn').click(function(){
     
         // Move body's children to the left 250px
         $('body').children().animate({'margin-left': '+=' + dis + 'px'}, 200);
