@@ -28,6 +28,36 @@ $(function(){
         
     });
 
+    $('#play3').on('click', function(){
+        $('#sound-file3').get(0).play();
+        
+    });
+
+    $('#play4').on('click', function(){
+        $('#sound-file4').get(0).play();
+        
+    });
+
+    $('#play5').on('click', function(){
+        $('#sound-file5').get(0).play();
+        
+    });
+
+    $('#play6').on('click', function(){
+        $('#sound-file6').get(0).play();
+        
+    });
+
+    $('#play7').on('click', function(){
+        $('#sound-file7').get(0).play();
+        
+    });
+
+    $('#play8').on('click', function(){
+        $('#sound-file8').get(0).play();
+        
+    });
+
     
  
 
@@ -127,16 +157,16 @@ $('#check5').click(function(){
     }
     // get marubatu p tag and show〇✖
     $('#marubatu5').text(function(){
-        if( text == 'カレー' ){
+        if( text == 'ケチャップ' ){
             return '◎';
-        }else if(text == 'ｶﾚｰ'){
+        }else if(text == 'ｹﾁｬｯﾌﾟ'){
             return '◎';    
         }else{
             return'✖';
         }        
     });
     // get answer5 p tag and show answer
-    $('#answer5').text('こたえ：カレー');
+    $('#answer5').text('こたえ：ケチャップ');
 
 });
 
@@ -153,16 +183,16 @@ $('#check6').click(function(){
     }
 
     $('#marubatu6').text(function(){
-        if( text == 'アイスクリーム' ){
+        if( text == 'ピーナッツ' ){
             return '◎';
-        }else if(text == 'ｱｲｽｸﾘｰﾑ'){
+        }else if(text == 'ﾋﾟｰﾅｯﾂ'){
             return '◎';    
         }else{
             return'✖';
         }        
     });
 
-    $('#answer6').text('こたえ：アイスクリーム');
+    $('#answer6').text('こたえ：ピーナッツ');
 
 });
 
@@ -178,15 +208,15 @@ $('#check7').click(function(){
     }
 
     $('#marubatu7').text(function(){
-        if( text == 'ビール' ){
+        if( text == 'コインロッカー' ){
             return '◎';
-        }else if(text == 'ﾋﾞｰﾙ'){
+        }else if(text == 'ｺｲﾝﾛｯｶｰ'){
             return '◎';    
         }else{
             return'✖';
         }        
     });
-    $('#answer7').text('こたえ：ビール');
+    $('#answer7').text('こたえ：コインロッカー');
 
 });
 
@@ -203,16 +233,16 @@ $('#check8').click(function(){
     }
 
     $('#marubatu8').text(function(){
-        if( text == 'ドライヤー' ){
+        if( text == 'ペットボトル' ){
             return '◎';
-        }else if(text == 'ﾄﾞﾗｲﾔｰ'){
+        }else if(text == 'ﾍﾟｯﾄﾎﾞﾄﾙ'){
             return '◎';    
         }else{
             return'✖';
         }        
     });
     
-    $('#answer8').text('こたえ：ドライヤー');
+    $('#answer8').text('こたえ：ペットボトル');
 
 });
 

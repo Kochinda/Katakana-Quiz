@@ -112,16 +112,16 @@ $('#check5').click(function(){
     }
     // get marubatu p tag and show〇✖
     $('#marubatu5').text(function(){
-        if( text == 'カレー' ){
+        if( text == 'カレーライス' ){
             return '◎';
-        }else if(text == 'ｶﾚｰ'){
+        }else if(text == 'ｶﾚｰﾗｲｽ'){
             return '◎';    
         }else{
             return'✖';
         }        
     });
     // get answer5 p tag and show answer
-    $('#answer5').text('こたえ：カレー');
+    $('#answer5').text('こたえ：カレーライス');
 
 });
 
